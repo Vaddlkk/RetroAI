@@ -1,6 +1,6 @@
 import random
 
-def ints(numbers):
+def ints(numbers): #Ints Function
     adstring = "".join(map(str, numbers))
     digitsl = list(adstring)
     random.shuffle(digitsl)
